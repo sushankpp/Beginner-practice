@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: orangered;
+            position: relative;
+            /* animation-name: anim;
+            animation-duration: 4s;
+            /* animation-delay: 2s; */
+            /* animation-iteration-count: 1;
+            animation-direction: reverse;
+            animation-timing-function: ease-in-out; */
+            /* animation-fill-mode: none; */
+            animation: anim 4s ease-in 2s infinite alternate both;
+        } 
+
+        @keyframes anim{
+            0%{
+                left: 0;
+                top: 0;
+                background-color: orangered;
+            }
+            25% {
+                left: 500px;
+                top: 0;
+                background-color: green;
+            }
+            50%{
+                left: 500px;
+                top: 500px;
+                background-color: gold;
+            }
+            75%{
+                left: 0;
+                top: 500px;
+                background-color: royalblue;
+            }
+            100%{
+                left: 0;
+                top: 300px;
+                background-color: purple;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+
+    </div>
+  </body>
+</html>

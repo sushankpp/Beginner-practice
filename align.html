@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> flloat and align</title>
+    <style>
+        *{
+            box-sizing:border-box ;
+        }
+            
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 1.4em;
+        }
+        .container{
+           max-width: 960px;
+            margin:  30px auto;
+        } 
+        .clr{
+            clear
+        }
+        
+        .box{
+            background: grey;
+            border: 1px solid red;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .box p{
+            /* text align */
+            text-align: left;
+            text-align: right;
+        } 
+        #box-2{
+            float: left;
+            width: 68%;
+        }
+
+        #box-3{
+            float: right;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div id="box-1" class="box"> 
+      <h3>heading</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam veniam explicabo eius officiis iure beatae, nemo corporis cum saepe pariatur!</p>
+     </div> 
+     <div id="box-2" class="box"> 
+      <h3>heading2</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam veniam explicabo eius officiis iure beatae, nemo corporis cum saepe pariatur!</p>
+     </div> 
+     <div id="box-3" class="box"> 
+      <h3>heading3</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam veniam explicabo eius officiis iure beatae, nemo corporis cum saepe pariatur!</p>
+     </div> 
+    </div> 
+</body>
+</html>
